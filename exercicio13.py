@@ -3,6 +3,6 @@
 
 salario = float(input("Insira seu salário: R$"))
 
-aumento = (salario * 15 / 100) + salario
+aumento = salario + (salario * 15 / 100)
 
 print(f"Seu salário de R${salario} teve um auemnto de 15%, que agora ficou de R${aumento}")

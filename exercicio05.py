@@ -4,4 +4,4 @@
 num = int(input("Digite um numero: "))
 
 print(
-    f"O número digitado é {num} o sucessor é {num + 1}\n e seu antecessor é {num - 1} ")
+    f"O número digitado é {num} \n4o sucessor é {num + 1}\ne seu antecessor é {num - 1} ")

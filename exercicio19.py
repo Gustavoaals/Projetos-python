@@ -12,6 +12,8 @@ aluno4 = str(input("Digite o nome do quarto aluno: "))
 
 sorteado = random.choice([aluno1, aluno2, aluno3, aluno4])
 
+#ou sorteado = [aluno1,aluno2,aluno3,aluno4]
+#escolhido = random.choice(lista)
 
 print("Realizando o sorteio")
 time.sleep(2)

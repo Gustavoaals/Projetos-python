@@ -3,3 +3,7 @@
 nasc = input("Em que cidade você nasceu? ").strip().lower()
 
 print(nasc.startswith("santo"))
+
+#ou de outra forma:
+#cidade = str(input("onde voce nasce? "))
+#print(cid[:5].upper() == "SANTO")

@@ -12,4 +12,4 @@ if viagem <= 200:
     print(f"E o preço da viagem é de R${viagem * 0.50:.2f}")
 else:
     print(f"Sua viagem é mais longa {viagem}km")
-    print(f"E irá custa R${viagem * 0.45:.2f}")
+    print(f"E irá custa R${viagem * 0.45:.2f}") 

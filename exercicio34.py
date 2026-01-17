@@ -4,8 +4,8 @@
 
 salario = float(input("Qual é seu salário? R$"))
 
-aumento10 = (10 * salario) / 100 + salario
-aumento15 = (15 * salario) / 100 + salario
+aumento10 = (salario * 10 / 100) + salario
+aumento15 = (salario * 15 / 100) + salario
 
 if salario >= 1250: 
     print(f"Quem ganhava R${salario:.2f} passa a ganhar R${aumento10:.2f} ")
